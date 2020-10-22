@@ -40,7 +40,7 @@ jobs:
       - 
         name: Run tests
         run: npx cross-env VERBOSE_FILE=tests_output.txt yarn ci-test-common
-        timeout-minutes: 10
+        timeout-minutes: 30
         continue-on-error: true
       - 
         name: Coverage summary
