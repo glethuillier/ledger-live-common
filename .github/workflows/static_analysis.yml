@@ -17,6 +17,7 @@ jobs:
             npm -v
             node -v
             yarn --version
+            yalc --version
             npx -v
             python -v
             sonar-scanner -v
