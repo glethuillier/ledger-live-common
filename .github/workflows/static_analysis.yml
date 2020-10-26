@@ -16,7 +16,7 @@ jobs:
           run: |
             npm -v
             node -v
-            yarn -v
+            yarn --version
             npx -v
             python -v
             sonar-scanner -v
